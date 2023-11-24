@@ -111,15 +111,7 @@
 }
 
 
-.moa-container button{
-    border: none;
-    padding: 10px 70px;
-    border-radius: 28px;
-    background-color: #572525;
-    color: #fff;
-}
-
-.moa-container button:hover{
-    background-color: #4F1D1D;
+.moa-modal-btn{
+    
 }
 

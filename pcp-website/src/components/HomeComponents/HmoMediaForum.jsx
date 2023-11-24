@@ -73,7 +73,7 @@ function HmoMediaForum({MediaComm}) {
                                     onMouseLeave={mouseLeave} 
                                     >
                                         <button>
-                                        Learn More
+                                            Learn More
                                         </button>
                                     </div>
                                 </a>

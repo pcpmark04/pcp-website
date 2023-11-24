@@ -21,7 +21,7 @@ export default function MOAModal({pahmocData, ...props}) {
         </Modal.Header>
         <Modal.Body className='MOA-modal-body'>
         {pahmocData.map((pahmocFile) => (
-            <div className='moa-dl-forms-modal'>
+            <div className='moa-dl-forms-modal' key={pahmocFile.id}>
                 <h3><GiOpenFolder/> {pahmocFile.title}</h3>
                 <div className='moa-dl-btn'>
                     <a 
@@ -44,7 +44,7 @@ export default function MOAModal({pahmocData, ...props}) {
         <Modal.Footer>
         <button 
             onClick={props.onHide}
-            className='moa-modal-btn'
+            className='society-modal-btn'
         >
             Close
         </button>
